@@ -1,0 +1,33 @@
+{
+  "name": "winprovit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "vitest"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">= 18.12.0",
+    "npm": "8.9.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcioalvesjun/winprovit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcioalvesjun/winprovit/issues"
+  },
+  "homepage": "https://github.com/marcioalvesjun/winprovit#readme",
+  "devDependencies": {
+    "nock": "^13.3.0",
+    "vitest": "^0.27.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
